@@ -10,4 +10,9 @@ class ReportsController extends Controller
     {
         return Inertia::render('Reports/Index');
     }
+
+    public function test()
+    {
+        return Inertia::render('Reports/Test');
+    }
 }
